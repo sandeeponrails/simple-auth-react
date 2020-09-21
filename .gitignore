@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/node-server/node_modules
+/node-auth-server/node_modules
 
 # testing
 /coverage
