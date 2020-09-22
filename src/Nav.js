@@ -21,9 +21,13 @@ class Nav extends Component {
                             <Link to="/private">Private</Link>
                         </li>
                     )}
-                    {isAuthenticated() && (
+                    {isAuthenticated() ? (
                         <li>
                             <button onClick={logout}>Logout</button>
+                        </li>
+                    ) : (
+                        <li>
+                            <Link to="/Signup">Signup</Link>
                         </li>
                     )}
                 </ul>
